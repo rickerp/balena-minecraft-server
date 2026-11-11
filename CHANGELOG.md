@@ -2,6 +2,16 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+# v2.0.0
+## (2026-11-11)
+
+* Download Paper from the Fill v3 API (the v2 API is shut down) and verify the SHA-256 checksum
+* Java 25 (eclipse-temurin) for Minecraft 26.x; add `MC_VERSION` to pin a version
+* Run java as PID 1 and allow 60s to stop, so Paper saves the worlds on shutdown
+* Replace deprecated balenalib base images with Debian trixie
+* Keep SCP host keys across updates
+* Boolean variables now need `true`
+
 # v1.2.12
 ## (2024-11-05)
 
